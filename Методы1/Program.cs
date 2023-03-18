@@ -2,8 +2,9 @@
 
 class MainClass
 {
-    static string ShowColor()
+    static string ShowColor(string username, int userage)
     {
+        Console.WriteLine("{0}, {1} год" + "\nНапишите свой любимый цвет на английском с маленькой буквы", username, userage);
         var color = Console.ReadLine();
             switch (color)
             {
@@ -69,11 +70,22 @@ class MainClass
 
     public static void Main(string[] args)
     {
+        var (name, age) = ("Захар", 21);
+        Console.WriteLine("Ваше имя: {0}", name);
+        Console.WriteLine("Ваш возраст: {0}", age);
+
+        Console.WriteLine("Ваше имя: ");
+        name = Console.ReadLine();
+        Console.WriteLine("Ваш возраст: ");
+        age = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Ваше имя {0}", name);
+        Console.WriteLine("Ваш возраст: {0}", age);
+
         var favcolors = new string[3];
-        Console.WriteLine("Введите три любимыц цвета");
         for (int i = 0; i < 3; i++)
         {
-            favcolors[i] = ShowColor();
+            favcolors[i] = ShowColor(name,age);
         }
 
         Console.WriteLine("Ваши любимые цвета");
