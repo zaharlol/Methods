@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First", "First\First.csproj", "{879970F4-2A5E-41D0-929E-62741D995924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы1", "Методы1\Методы1.csproj", "{015E566A-18ED-4C0D-ABA1-71336F9D7A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы1", "Методы1\Методы1.csproj", "{015E566A-18ED-4C0D-ABA1-71336F9D7A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы2", "Методы2\Методы2.csproj", "{B7CF5851-F717-4ECF-A3C1-6980B929E129}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{015E566A-18ED-4C0D-ABA1-71336F9D7A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015E566A-18ED-4C0D-ABA1-71336F9D7A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015E566A-18ED-4C0D-ABA1-71336F9D7A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CF5851-F717-4ECF-A3C1-6980B929E129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CF5851-F717-4ECF-A3C1-6980B929E129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CF5851-F717-4ECF-A3C1-6980B929E129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CF5851-F717-4ECF-A3C1-6980B929E129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
