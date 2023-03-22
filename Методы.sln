@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First", "First\First.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы1", "Методы1\Методы1.csproj", "{015E566A-18ED-4C0D-ABA1-71336F9D7A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы2", "Методы2\Методы2.csproj", "{B7CF5851-F717-4ECF-A3C1-6980B929E129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы2", "Методы2\Методы2.csproj", "{B7CF5851-F717-4ECF-A3C1-6980B929E129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы3", "Методы3\Методы3.csproj", "{CD3D932A-CF88-4A74-889F-C399799FF328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы3", "Методы3\Методы3.csproj", "{CD3D932A-CF88-4A74-889F-C399799FF328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рекурсия", "Рекурсия\Рекурсия.csproj", "{3C8301AA-AAED-496B-B424-96820164B32D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CD3D932A-CF88-4A74-889F-C399799FF328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3D932A-CF88-4A74-889F-C399799FF328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3D932A-CF88-4A74-889F-C399799FF328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8301AA-AAED-496B-B424-96820164B32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8301AA-AAED-496B-B424-96820164B32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8301AA-AAED-496B-B424-96820164B32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8301AA-AAED-496B-B424-96820164B32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
